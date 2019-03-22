@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Proste obliczenia</h1>
 
-    
-    
-</head>
-<body>
+    <label for="a">Podaj pierwszą liczbę:</label><input type="number" id="a" />
+    <br />
+    <label for="b">Podaj drugą liczbę:</label><input type="number" id="b" />
+    <br />
 
+    <input type="button" value="DODAWANIE" onclick="oblicz(1)" />
+    <input type="button" value="ODEJMOWANIE" onclick="oblicz(2)" />
+    <input type="button" value="MNOŻENIE" onclick="oblicz(3)" />
+    <input type="button" value="DZIELENIE" onclick="oblicz(4)" />
 
-   
- <h1>Proste obliczenia</h1>
-
- <label for="a">Podaj pierwszą liczbę:</label><input type="number" id="a">
- <br>
- <label for="b">Podaj drugą liczbę:</label><input type="number" id="b">
- <br>
-
- <input type="button" value="DODAWANIE" onclick="oblicz(1)">
- <input type="button" value="ODEJMOWANIE" onclick="oblicz(2)">
- <input type="button" value="MNOŻENIE" onclick= "oblicz(3)">
- <input type="button" value="DZIELENIE" onclick="oblicz(4)">
-
- <div id="wynik"></div>
-
-
-
+    <div id="wynik"></div>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
